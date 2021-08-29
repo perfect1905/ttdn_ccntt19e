@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  
+  <title>Hao shop</title>
+</head>
+
+<body>
+  <div class="app">
+    <div class="header">
+      <nav class="header_head">
+        <ul class="list">
+          <a href="https://apps.apple.com/us/app/sendo-ch%E1%BB%A3-c%E1%BB%A7a-ng%C6%B0%E1%BB%9Di-vi%E1%BB%87t/id940313804">
+            <li class="list_item">Tải app</li>
+          </a>
+
+          <a href="#">
+            <li class="list_item">Chăm sóc khách hàng</li>
+          </a>
+          <a href="@">
+            <li class="list_item">Kiểm tra đơn hàng</li>
+          </a>
+          <a href="https://www.instagram.com/hoangf_haro/"><i class="fab fa-instagram" style="font-size: 24px; color:white;"></i></i></a>
+          <a href="https://www.facebook.com/hao.an.2207"><i class="fab fa-facebook-square" style="font-size: 24px; color:white;"> </i></a>
+          <div class="logo"><a class="link_logo" href="@"><img src="https://pngimg.com/uploads/turkey/small/turkey_PNG58572.png"  alt=""><i class="logo_link">ShopHao</i></a>
+            <input aria-label="Freeship 0Đ" class="search" maxlength="128" placeholder="Freeship 0Đ" autocomplete="off" value="">
+            <i class="fa fa-shopping-cart cart" style="font-size:36px"></i>
+          </div>
+        </ul>
+        <ul class="list_2">
+          <a href="@">
+            <li class="list_item">Đăng nhập</li>
+          </a>
+          <a href="@">
+            <li class="list_item">Đăng kí</li>
+          </a>
+
+        </ul>
+      </nav>
+      <!-- danhmuc -->
+      <div class="container">
+        <div class="grid">
+          <div class="row">
+            <div class="col-2">
+              <nav class="category">
+                <h3 class="category__heading">
+                  <i class="category__heading_icon fas fa-list"></i> Danh mục
+                </h3>
+                <ul class="category-list ">
+                  <li class="category-item">
+                    <a href="@" class="category-item__link active" style="color: tomato;">
+                      <div class="category-item__link--active"></div>
+                      Laptop Gaming
+                    </a>
+                  </li>
+                  <li class="category-item">
+                    <a href="@" class="category-item__link">Laptop học tập</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="@" class="category-item__link">Laptop Văn phòng</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="@" class="category-item__link">Laptop Giá rẻ</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="@" class="category-item__link">Laptop Cũ</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- bar -->
+            <div class="col-10">
+              <div class="home">
+                <label class="home-filter">Sắp xếp theo</label>
+                <button class="home-filter_btn btn btn-warning">Phổ biến</button>
+                <button class="home-filter_btn btn btn-light">Mới nhất</button>
+                <button class="home-filter_btn btn btn-light">Bán chạy</button>
+                <div class="select-input">
+                  <span class="select-input__label">Giá
+                    <i class="select-input__label_icon fas fa-chevron-down"></i>
+                    <!-- list -->
+
+                    <ul class="select-input__label-sub-list">
+                      <li class="select-input__label-sub-item">
+                        <a href="@" class="select-input_link">Từ thấp đến cao</a>
+
+                      </li>
+                      <li class="select-input__label-sub-item">
+                        <a href="@" class="select-input_link">
+                          Từ cao đến thấp</a>
+                      </li>
+                    </ul>
+
+                </div>
+                </span>
+
+                <div class="home-filter__paginate">
+                  <span>
+                    <span class="home-filter__num" style="color: red;">1</span>
+                    <span class="home-filter__num"></span>/</span>
+                  <span class="home-filter__num" style="color: black;">14</span>
+                  </span>
+                  <div class="home-filter__next">
+                    <a href="@" class="home-filter__next-page"><i class="home-filter__next-page_icon fas fa-angle-left"></i></a>
+                    <a href="@" class="home-filter__next-page"><i class="home-filter__next-page_icon fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product item -->
+              <a class="home__product">
+                <div class="col-2-4">
+                  <div class="home__product-item-img" style="background-image:url(1.jpg) ;">
+
+                  </div>
+                  <div class="home__product-info">
+                    <h5 class="home__product-name">Acer Aspire 3 A315 58G 56HC i5 1135G7</h5>
+                    <div class="price">
+                      <span class="home__product-price">
+                        <span class="home__product-price-sell">19.999.999 đ</span>
+                        <span class="home__product-price-sell">-</span>
+                        <span class="home__product-price-sell">15.999.999 đ</span>
+                      </span>
+                    </div>
+
+                    <div class="home__product-adr">
+                      <span>
+                        <p class="sale"> Quà 400.000₫                        </p>
+                        <ul>
+                          <li> M.HÌNH : 15.6", Full HD</li>
+                          <li>CPU:  i5, 1135G7, 2.4GHz</li>
+
+                          <li> CARD: 
+                            MX350 2GB</li>
+
+                          <li>PIN: 
+                            2-cell, 36.7Wh</li>
+
+                          <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px; margin-bottom: 10px;">Mua ngay</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <a class="home__product">
+                  <div class="col-2-4">
+                    <div class="home__product-item-img" style="background-image:url(2.jpg) ;">
+
+                    </div>
+                    <div class="home__product-info">
+                      <h5 class="home__product-name">Acer Aspire 3 A315 58 73DV i7 1165G7
+                        </h5>
+                      <div class="price">
+                        <span class="home__product-price">
+                          <span class="home__product-price-sell">19.999.999 đ</span>
+                          <span class="home__product-price-sell">-</span>
+                          <span class="home__product-price-sell">15.999.999 đ</span>
+                        </span>
+                      </div>
+
+                      <div class="home__product-adr">
+                        <span>
+                          <p class="sale"> Quà 2.180.000₫</p>
+                          <ul>
+                            <li> M.HÌNH : 15.6", Full HD</li>
+                            <li>CPU: 
+                                i7, 1165G7, 2.8GHz
+                            </li>
+
+                            <li> CARD: 
+                               
+                                
+                                CARD
+                                Intel Iris Xe
+                                
+                        </li>
+
+                            <li>PIN: 
+                          
+                                
+                                PIN
+                                2-cell, 36.7Wh</li>
+
+                            <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="home__product">
+                    <div class="col-2-4">
+                      <div class="home__product-item-img" style="background-image:url(3.jpg) ;">
+
+                      </div>
+                      <div class="home__product-info">
+                        <h5 class="home__product-name">Acer Aspire 7 Gaming A715</h5>
+                        <div class="price">
+                          <span class="home__product-price">
+                            <span class="home__product-price-sell">19.999.999 đ</span>
+                            <span class="home__product-price-sell">-</span>
+                            <span class="home__product-price-sell">15.999.999 đ</span>
+                          </span>
+                        </div>
+
+                        <div class="home__product-adr">
+                          <span>
+                            <p class="sale"> Quà 2.180.000₫
+
+                                </p>
+                            <ul>
+                              <li> M.HÌNH : 15.6", Full HD</li>
+                              <li>CPU: CPU
+                                i5, 9300H, 2.4GHz
+                                
+                                </li>
+
+                              <li> CARD: GTX 1650Ti 4GB</li>
+
+                              <li>PIN:  48Wh</li>
+
+                              <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="home__product">
+                      <div class="col-2-4">
+                        <div class="home__product-item-img" style="background-image:url(4.jpg) ;">
+
+                        </div>
+                        <div class="home__product-info">
+                          <h5 class="home__product-name">Acer Nitro 5 Gaming AN515 44 R9JM R5</h5>
+                          <div class="price">
+                            <span class="home__product-price">
+                              <span class="home__product-price-sell">19.999.999 đ</span>
+                              <span class="home__product-price-sell">-</span>
+                              <span class="home__product-price-sell">15.999.999 đ</span>
+                            </span>
+                          </div>
+
+                          <div class="home__product-adr">
+                            <span>
+                              <p class="sale"> Quà 2.180.000₫</p>
+                              <ul>
+                                <li> M.HÌNH : 15.6", Full HD</li>
+                                <li>
+                                    
+                                    CPU
+                                    Ryzen 5, 4600H, 3GHz
+                                    
+                                    </li>
+
+                                <li> CARD: GTX 1650 4GB</li>
+
+                                <li>PIN: 
+                                 
+                                    4-cell, 57Wh</li>
+
+                                <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="home__product">
+                        <div class="col-2-4">
+                          <div class="home__product-item-img" style="background-image:url(5.jpg) ;">
+
+                          </div>
+                          <div class="home__product-info">
+                            <h5 class="home__product-name">Acer Nitro 5 Gaming AN515 45 R3SM R5 5600H</h5>
+                            <div class="price">
+                              <span class="home__product-price">
+                                <span class="home__product-price-sell">19.999.999 đ</span>
+                                <span class="home__product-price-sell">-</span>
+                                <span class="home__product-price-sell">15.999.999 đ</span>
+                              </span>
+                            </div>
+
+                            <div class="home__product-adr">
+                              <span>
+                                <p class="sale"> Quà 2.180.000₫</p>
+                                <ul>
+                                  <li> M.HÌNH : 15.6", Full HD</li>
+                                  <li>CPU:
+                                    Ryzen 5, 5600H, 3.3GHz
+                                    
+                                    </li>
+
+                                  <li> CARD: GTX 1650 4GB</li>
+
+                                  <li>PIN: 
+                                    4-cell, 57Wh</li>
+
+                                  <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="home__product">
+                          <div class="col-2-4">
+                            <div class="home__product-item-img" style="background-image:url(acer-nitro-5-gaming-an515-57-50ft-i5-nhqd8sv003-600x600.jpg) ;">
+
+                            </div>
+                            <div class="home__product-info">
+                              <h5 class="home__product-name">
+                                Acer Nitro 5 Gaming AN515 57 50FT i5 11400H</h5>
+                              <div class="price">
+                                <span class="home__product-price">
+                                  <span class="home__product-price-sell">19.999.999 đ</span>
+                                  <span class="home__product-price-sell">-</span>
+                                  <span class="home__product-price-sell">15.999.999 đ</span>
+                                </span>
+                              </div>
+
+                              <div class="home__product-adr">
+                                <span>
+                                  <p class="sale"> Quà 2.180.000₫</p>
+                                  <ul>
+                                    <li> M.HÌNH : 15.6", Full HD</li>
+                                    <li>CPU: 
+                                        i5, 11400H, 2.7GHz
+                                        
+                                    </li>
+
+                                    <li> CARD:     
+                                        RTX 3050 4GB
+                                        
+                                        </li>
+
+                                    <li>PIN:
+                                        4-cell, 57Wh</li>
+
+                                    <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="home__product">
+                            <div class="col-2-4">
+                              <div class="home__product-item-img" style="background-image:url(7.jpg) ;">
+
+                              </div>
+                              <div class="home__product-info">
+                                <h5 class="home__product-name">Acer Nitro 5 Gaming AN515 57 727J i7 11800H</h5>
+                                <div class="price">
+                                  <span class="home__product-price">
+                                    <span class="home__product-price-sell">19.999.999 đ</span>
+                                    <span class="home__product-price-sell">-</span>
+                                    <span class="home__product-price-sell">15.999.999 đ</span>
+                                  </span>
+                                </div>
+
+                                <div class="home__product-adr">
+                                  <span>
+                                    <p class="sale"> Quà 2.180.000₫</p>
+                                    <ul>
+                                      <li> M.HÌNH : 15.6", Full HD</li>
+                                      <li>CPU: 
+                                        i7, 11800H, 2.30 GHz
+                                        
+                                       </li>
+
+                                      <li> CARD: GTX 3050Ti 4GB</li>
+
+                                      <li>PIN:  4-cell, 57Wh</li>
+
+                                      <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="home__product">
+                              <div class="col-2-4">
+                                <div class="home__product-item-img" style="background-image:url(8.jpg) ;">
+
+                                </div>
+                                <div class="home__product-info">
+                                  <h5 class="home__product-name">Acer Predator Helios PH315 54 78W5 i7 11800H</h5>
+                                  <div class="price">
+                                    <span class="home__product-price">
+                                      <span class="home__product-price-sell">19.999.999 đ</span>
+                                      <span class="home__product-price-sell">-</span>
+                                      <span class="home__product-price-sell">15.999.999 đ</span>
+                                    </span>
+                                  </div>
+
+                                  <div class="home__product-adr">
+                                    <span>
+                                      <p class="sale"> Quà 2.180.000₫</p>
+                                      <ul>
+                                        <li> M.HÌNH : 15.6", Full HD</li>
+                                        <li>CPU: 
+                                            i7, 11800H, 2.30 GHz
+                                            
+                                            
+                                            </li>
+
+                                        <li> CARD: GTX 3050Ti 4GB</li>
+
+                                        <li>PIN: 4-cell, 57Wh</li>
+
+                                        <button type="button" class="btn btn-danger " style="margin-top: 10px ; margin-left: 25px;margin-bottom: 10px">Mua ngay</button>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                             
+                                  
+
+            </div>
+
+          </div>
+
+</body>
+
+</html>
